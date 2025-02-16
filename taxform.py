@@ -44,5 +44,11 @@ def main():
     print(f"Net Taxable Income: ${net_income:,.2f}")
     print(f"Income Tax (20%): ${income_tax:,.2f}")
 
+# This line is a common Python idiom that checks if this file is being run directly
+# (not imported as a module). We could just call main() directly, but using this check
+# is considered best practice because:
+# 1. It allows the file to be imported without automatically running main()
+# 2. It makes the code more modular and reusable
+# 3. It prevents code from running when the file is imported as a module
 if __name__ == "__main__":
     main()
