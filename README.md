@@ -1,6 +1,11 @@
-# Welcome to GitHub Desktop!
+# TaxForm
 
-This is your README. READMEs are where you can communicate what your project is and how to use it.
+A simple Python script for calculating taxes.
 
-Write your name on line 6, save it, and then head back to GitHub Desktop.
-Readme file was edited
+## Description
+
+This script contains a single function to calculate taxes based on a very basic income and tax rate.  It's intended as a simple example.
+
+## Usage
+
+To use the `calculate_tax` function, simply import the script into your Python project and call the function with the appropriate income and tax rate.
